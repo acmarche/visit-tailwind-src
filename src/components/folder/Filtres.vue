@@ -32,7 +32,7 @@ onMounted(() => {
     </option>
   </select>
 
-  <ul class="hidden xl:flex pt-6 flex-1 flex-wrap gap-2 w-1/2 my-2 mx-auto">
+  <ul class="hidden xl:flex pt-6 flex-1 flex-wrap gap-2 w-3/5 my-2 mx-auto">
     <li
       v-for="item in filtres"
       :key="item.id"

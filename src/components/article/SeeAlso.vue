@@ -41,7 +41,7 @@ onMounted(() => {
                 <span class="block font-montserrat-semi-bold text-caractere group-hover:text-cta-light">
                   {{ item.post_title }}
                 </span>
-                <div class=" flex flex-row gap-2">
+                <div class=" flex flex-row flex-wrap gap-2">
                     <span class="font-montserrat-light text-caractere"
                           v-for="tag in item.tags" :key="tag.id">
                           {{ item.tag }}

@@ -36,7 +36,7 @@ const topProperty = 'top-full'
       <li class="hover:text-cta-light">
         <a href="#" class="p-2">Bouger</a>
       </li>
-      <li class="hover:text-cta-light">
+      <li class="hover:text-cta-light mb-6">
         <a href="#" class="p-2">Séjourner</a>
       </li>
     </ul>

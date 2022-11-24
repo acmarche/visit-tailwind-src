@@ -4,7 +4,7 @@ const props = defineProps(['img', 'title'])
 <template>
   <div class="h-[37rem]">
     <div class="relative h-full w-full bg-gradient-to-r from-pink-300/50 via-purple-300/50 to-indigo-400/50">
-      <img class="w-full h-full object-cover absolute mix-blend-overlay"
+      <img class="w-full h-full object-cover object-center absolute mix-blend-overlay"
            :src="props.img" alt=""/>
       <div class="flex flex-col px-6 absolute left-0 bottom-8">
         <a href="https://visitmarche.be/categorie/inspirations/"
