@@ -69,6 +69,8 @@ module.exports = {
             },
             objectPosition: {
                 'top-center': 'top center',
+                'center-center': 'center center',
+                'bottom-center': 'bottom center',
             }
         },
     },
