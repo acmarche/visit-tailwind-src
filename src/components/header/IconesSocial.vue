@@ -1,7 +1,7 @@
 <template>
   <div class="flex space-x-6">
 
-    <a href="#" class="text-white hover:text-cta-light hover-tex-white">
+    <a href="#" class="text-white hover:text-cta-light">
       <span class="sr-only">Facebook</span>
       <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path fill-rule="evenodd"
@@ -10,7 +10,7 @@
       </svg>
     </a>
 
-    <a href="#" class="text-white hover:text-cta-light hover-tex-white">
+    <a href="#" class="text-white hover:text-cta-light">
       <span class="sr-only">Instagram</span>
       <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path fill-rule="evenodd"
@@ -19,7 +19,7 @@
       </svg>
     </a>
 
-    <a href="#" class="text-white hover:text-cta-light hover-tex-white">
+    <a href="#" class="text-white hover:text-cta-light">
       <span class="sr-only">Youtube</span>
       <svg
           fill="currentColor" aria-hidden="true"
