@@ -11,7 +11,7 @@ const cat = {'title': 'Bouger', 'excerpt': 'Pour votre santé'}
 <template>
   <Header/>
   <HeaderArticle :title="'Bouger'"
-                 :img="'https://visitmarche.be/wp-content/themes/visitmarche/assets/tartine/rsc/img/bg_inspirations.png'"/>
+                 :img="'https://visitmarche.be/wp-content/themes/visittail/assets/tartine/bg_inspirations.png'"/>
   <Cadre :excerpt="cat.excerpt"/>
   <main class="container px-4 mt-2 xl:mt-4 mx-auto mb-8">
 
