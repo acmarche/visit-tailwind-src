@@ -28,7 +28,7 @@ onMounted(() => {
   <select name="category"
           class="xl:hidden flex border border-cta-primary p-2 mt-3 font-montserrat-semi-bold bg-white mx-auto">
     <option v-for="item in filtres" :key="item.id" :value="item.id">
-      {{ item.nom }}
+      {{ item.name }}
     </option>
   </select>
 
@@ -40,7 +40,7 @@ onMounted(() => {
       <a
         :href="item.url"
         class="">
-        {{ item.nom }}
+        {{ item.name }}
       </a>
     </li>
   </ul>

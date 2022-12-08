@@ -27,7 +27,7 @@ onMounted(() => {
   <ul class="pt-6 grid grid-cols-1 gap-2 xl:grid-cols-[repeat(3,minmax(0,1fr))]">
     <li
         v-for="item in offres"
-        :key="item.codeCgt"
+        :key="item.id"
         class=" rounded-lg shadow-lg"
     >
       <a
@@ -45,11 +45,11 @@ onMounted(() => {
           >
             {{ item.name }}
           </h3>
-          <span class="text-caractere text-sm font-montserrat-light" v-html="item.description.substring(0,80)"></span>
+          <span class="text-caractere text-sm font-montserrat-light" v-html="item.description?.substring(0,80)"></span>
           <div
-              class="text-cta-light my-1 flex gap-1 block font-montserrat-medium text-xs xl:text-base">
+              class="text-cta-light my-1 flex gap-1 block font-montserrat-light text-xs">
             <span v-for="tag in item.tags">
-              {{ tag.nom }}
+              {{ tag.name }}
             </span>
           </div>
         </div>
