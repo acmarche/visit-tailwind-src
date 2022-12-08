@@ -1,4 +1,11 @@
 <script setup>
+const icones2 = [
+  {id: 1, nom: 'Patrimoine', image: '/wp-content/themes/visittail/assets/tartine/eglise-decouvrir.png', url: '/fr/?cat=9'},
+  {id: 2, nom: 'Arts', image: '/wp-content/themes/visittail/assets/tartine/statue-decouvrir.png', url: '/fr/?cat=10'},
+  {id: 3, nom: 'Balades', image: '/wp-content/themes/visittail/assets/tartine/sac-dos-decouvrir.png', url: '/fr/?cat=11'},
+  {id: 4, nom: 'Gourmandises', image: '/wp-content/themes/visittail/assets/tartine/chou-decouvrir.png', url: '/fr/?cat=13'},
+  {id: 5, nom: 'Fêtes', image: '/wp-content/themes/visittail/assets/tartine/tambour-decouvrir.png', url: '/fr/?cat=12'},
+]
 const icones = [
   {id: 1, nom: 'Patrimoine', image: 'images/eglise-decouvrir.png', url: '/fr/?cat=9'},
   {id: 2, nom: 'Arts', image: 'images/statue-decouvrir.png', url: '/fr/?cat=10'},
@@ -6,7 +13,7 @@ const icones = [
   {id: 4, nom: 'Gourmandises', image: 'images/chou-decouvrir.png', url: '/fr/?cat=13'},
   {id: 5, nom: 'Fêtes', image: 'images/tambour-decouvrir.png', url: '/fr/?cat=12'},
 ]
-// /wp-content/themes/visittail/assets/tartine/
+// /wp-content/themes/visittail/assets/tartine/eglise-decouvrir.png
 </script>
 <template>
   <ul class="list-none decouvrir-page flex flex-col flex-wrap justify-center pt-4 mx-auto w-2/3">
